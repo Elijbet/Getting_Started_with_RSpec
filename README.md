@@ -7,7 +7,9 @@ source “https://rubygems.org"
 gem ‘rspec’, ‘~> 3.6’
 
 $ bundle install
-
+```
+After installing RSpec create the calculator.
+```
 touch calculator.rb
 
 # calculator.rb
@@ -28,4 +30,3 @@ calculator $ irb
  => 5
 ```
 RSpec tests are named after the file they test and are inside spec directory. Enter mkdir spec in your terminal, then create the calculator_spec.rb
-
