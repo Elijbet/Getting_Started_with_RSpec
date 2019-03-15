@@ -1,4 +1,13 @@
+
+
 # Getting Started with RSpec
+> Small tutorial on first steps in RSpec.  
+
+## Acknowledgments
+
+I used [Getting Started with RSpec](https://medium.com/@mindovermiles262/getting-started-with-rspec-part-1-9418909f5e53) to learn setup basics of RSpec.
+
+## Usage
 
 Create a directory called calculator and make a Gemfile in it. 
 ```
@@ -30,3 +39,11 @@ calculator $ irb
  => 5
 ```
 RSpec tests are named after the file they test and are inside spec directory. Enter mkdir spec in your terminal, then create the calculator_spec.rb
+
+
+## Installation
+- clone the repo and `bundle install`	
+
+## Authors
+
+Eliza Khachatryan
